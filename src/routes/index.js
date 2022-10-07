@@ -4,7 +4,9 @@ import Route from './Route';
 
 import SignIn from '../pages/SignIn';
 import SignUp from '../pages/SignUp';
+
 import Dashboard from '../pages/Dashboard';
+import Profile from '../pages/Profile';
 
 
 export default function Routes(){
@@ -14,6 +16,7 @@ export default function Routes(){
             <Route exact path="/register" component={SignUp} />
 
             <Route exact path="/dashboard" component={Dashboard} isPrivate />
+            <Route exact path="/profile" component={Profile} isPrivate/>
         </Switch>
     )
 }
