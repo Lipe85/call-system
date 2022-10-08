@@ -13,7 +13,7 @@ export default function Dashboard(){
             <Header />
 
             <h1>Página Dashboard</h1>
-            <button onClick={()=>signOut()}>Fazer logout</button>
+
         </div>
     )
 }
