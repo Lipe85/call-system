@@ -4,7 +4,7 @@ import 'firebase/firestore';
 import 'firebase/storage';
 
 let firebaseConfig = {
-    apiKey: "AIzaSyAVUBaI7wZasO9wm2hjKPOS9C9W2lrwpfY",
+    apiKey: "",
     authDomain: "call-system-f2cf7.firebaseapp.com",
     projectId: "call-system-f2cf7",
     storageBucket: "call-system-f2cf7.appspot.com",
